@@ -1,0 +1,17 @@
+{
+  "name": "brazen",
+  "version": "1.0.0",
+  "description": "A simple template for a project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-sass": "^2.0.2",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
