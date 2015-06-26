@@ -1,0 +1,16 @@
+
+.shaded {
+  background-color: #f1f1f1;
+  &.pos {
+    background-color: lighten($positive, 40%);
+  }
+  &.neg {
+    background-color: lighten($negative, 20%);
+  }
+  &.primary {
+    background-color: lighten($primary, 40%);
+  }
+  &.rounded {
+    border-radius: 3px;
+  }
+}

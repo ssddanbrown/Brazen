@@ -40,7 +40,7 @@ $button-border-radius: 3px;
   }
 }
 
-.grouped {
+.button-group {
   @include clearfix;
   .button, button[type="button"] {
     margin: $-xs 0 $-xs 0;

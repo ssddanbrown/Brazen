@@ -8,10 +8,10 @@ div[class^="col-"] img {
   max-width: $max-width;
   margin-left: auto;
   margin-right: auto;
+  padding-left: $-m;
+  padding-right: $-m;
   &.fluid {
     max-width: 100%;
-    margin-left: $-m;
-    margin-right: $-m;
   }
 }
 

@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 html {
-	background-color: #F8F8F8;
+	background-color: #FFF;
 }
 body {
 	font-family: $text;
@@ -28,7 +28,7 @@ h3 {
   font-size: 1.75em;
   line-height: 1.571428572em;
   margin-top: 0.78571429em;
-  margin-bottom: 0.78571429em;
+  margin-bottom: 0.43137255em;
 }
 h4 {
   font-size: 1em;
@@ -51,4 +51,8 @@ p.neg, p .neg, span.neg, div.text-neg {
 
 p.muted, p .muted, span.muted, div.text-muted {
 	color: lighten($text-dark, 26%);
+}
+
+p.primary, p .primary, span.primary, div.text-primary {
+	color: $primary;
 }
