@@ -4,6 +4,8 @@ Brazen is a simple project framework that includes gulp and some basic sass/css 
 
 Brazen is current in very early development and is built to my mindset for when I build personal projects.
 
+An overview of the components and the initial styling can be found at http://ssddanbrown.github.io/Brazen.
+
 ### Stuff to add
 
 - [ ] Add autoprefixer to gulp
