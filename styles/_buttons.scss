@@ -1,10 +1,12 @@
 
 @mixin generate-button-colors($textColor, $backgroundColor) {
   background-color: $backgroundColor;
-  color: #EEE;
+  color: $textColor;
   &:hover {
     background-color: lighten($backgroundColor, 8%);
     box-shadow: $bs-med;
+    text-decoration: none;
+    color: $textColor;
   }
   &:active {
     background-color: darken($backgroundColor, 8%);
@@ -25,18 +27,21 @@ $button-border-radius: 3px;
   outline: 0;
   border-radius: $button-border-radius;
   cursor: pointer;
-  transition: all ease-in 80ms;
+  transition: all ease-in-out 80ms;
   box-shadow: 0 0 0 0 #000;
   @include generate-button-colors(#EEE, $primary);
 }
 
-.button, button[type="button"] {
+.button, button[type="button"], input[type="button"], input[type="submit"]  {
   @extend .button-base;
   &.pos {
     @include generate-button-colors(#EEE, $positive);
   }
   &.neg {
     @include generate-button-colors(#EEE, $negative);
+  }
+  &.secondary {
+    @include generate-button-colors(#EEE, $secondary);
   }
 }
 
