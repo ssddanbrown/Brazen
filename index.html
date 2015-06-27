@@ -14,14 +14,22 @@
 <body>
 
   <div class="container">
-    <h1>Brazen Project Kit</h1>
+    <h1>The Brazen Project<span class="subheader">An Opinionated Website Starter Kit</span></h1>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere qui hic blanditiis aut ducimus ea at perferendis, voluptas dolor animi, molestias laborum! Molestiae, consequatur voluptas debitis soluta ab impedit eos doloremque in quidem assumenda numquam nihil sapiente praesentium itaque illum laudantium recusandae ut error architecto necessitatibus tenetur beatae veniam exercitationem, suscipit.</div>
+      <div class="col-md-6">
+        <p>Brazen is a simple html, gulp, sass/css project start kit. The elements have been inspired by bootstrap but has been designed to be more semantic and light-weight.</p>
+        <p>Brazen is designed to be used as a base rather than extending &amp; overriding. Rather than being a css libraray of components, Brazen styles the base html elements and adds many usefull helper classes for rapid development without tempting you to use the same building blocks for everything you build.</p>
+        <p><strong>Brazen is currently is heavy development</strong></p>
+        <p><a href="https://github.com/ssddanbrown/Brazen">View the project on GitHub &raquo;</a></p>
+        <blockquote>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi aliquid dignissimos maiores, voluptatem similique, a dicta aut incidunt quibusdam tenetur nisi quasi libero voluptate odio.
+        </blockquote>
+      </div>
       <div class="col-md-6">
         <button class="button">Click Here</button>
-        <button type="button">Click Here</button>
+        <button type="button" class="secondary">Click Here</button>
         <a href="#" class="button">Click Here</a>
         <br>
         <button class="button pos">Click Here</button>
@@ -69,6 +77,14 @@
         </div>
         <div class="col-md-6">
           <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+          </div>
+          <div class="form-group">
+            <label for="disabled">Disabled</label>
+            <input type="text" disabled name="disabled" id="disabled">
+          </div>
+          <div class="form-group">
             <label>Choose Color</label>
             <label class="radio"><input type="radio" name="color" value="red">Red</label>
             <label class="radio"><input type="radio" name="color" value="orange">Orange</label>
@@ -80,6 +96,8 @@
             <label class="checkbox"><input type="checkbox" name="color" value="orange">Orange</label>
             <label class="checkbox"><input type="checkbox" name="color" value="red">Blue</label>
           </div>
+          <input type="submit" name="name" value="Submit" class="pos">
+          <input type="button" name="name" value="Submit" class="neg">
         </div>
       </div>
     </form>
@@ -107,37 +125,66 @@
         <br><br><br>
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-2 shaded rounded">
+      <div class="col-md-2 shaded primary rounded">
         <br><br><br>
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-2 shaded primary">
+      <div class="col-md-2 shaded secondary rounded">
         <br><br><br>
+      </div>
+    </div>
+    <div><br></div>
+    <div class="row">
+      <div class="col-md-2 shaded pos rounded bordered">
+        <br><br><br>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3 shaded neg rounded bordered">
+        <br><br><br>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-2 shaded primary rounded bordered thick">
+        <br><br><br>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-2 secondary rounded bordered padded">
+        <div class="shaded"><br><br><br></div>
       </div>
     </div>
   </div>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-9">
         <h2>H2 Header Test</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis provident placeat mollitia molestiae necessitatibus et commodi hic harum ullam sequi doloribus praesentium vitae tempora cumque consectetur ab delectus quasi ratione, nulla numquam unde molestias cupiditate a? Laborum qui itaque blanditiis molestiae in. Vero perspiciatis enim vitae blanditiis voluptate sequi!</p>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <p class="pos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, voluptatem.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <p class="neg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, tempora.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <p class="primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, maxime.</p>
+          </div>
+          <div class="col-md-3">
+            <p class="secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, maxime.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p><small>* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eligendi.</small></p>
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <h2>H2 Header Test 2</h2>
+      <div class="col-md-3 shaded padded-horizontal margins-vertical large">
+        <h3>H3 Header Test</h3>
         <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam reiciendis ducimus dolores iusto porro corrupti distinctio ad quod! Magnam, soluta.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse animi provident magnam, quis. Ad labore obcaecati aut aperiam assumenda odio impedit ratione at laboriosam maxime beatae quas quasi voluptatum error ducimus veniam dolorem, delectus quam iusto omnis? Nihil minus praesentium, deleniti aperiam, suscipit laborum totam repudiandae molestiae enim dolorem quis neque sunt reprehenderit architecto, obcaecati quibusdam harum necessitatibus. Beatae ex, harum delectus dolores reiciendis non.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse animi provident magnam, quis. Lorem ipsum dolor sit amet.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum mollitia officiis, ea praesentium minima aliquid.</p>
       </div>
     </div>
   </div>
